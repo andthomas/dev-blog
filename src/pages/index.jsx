@@ -12,7 +12,7 @@ import { rhythm } from '../utils/typography';
 
 const BlogIndex = ({ data, location }) => {
 	const posts = data.allMarkdownRemark.edges;
-
+	console.log('running');
 	return (
 		<ThemeProvider>
 			<section
