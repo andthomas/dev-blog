@@ -1,19 +1,14 @@
 module.exports = {
 	siteMetadata: {
-		bio: 'Life, music, code and things in between…',
-		title: `Divyanshu Maithani`,
-		author: `Divyanshu Maithani`,
-		description: `Personal blog of Divyanshu Maithani`,
-		siteUrl: `https://divyanshu013.dev`,
+		bio: 'Blog for dev, food and other important things',
+		title: `Andy Brown`,
+		author: `Andy Brown`,
+		description: `Blog for dev and other activities`,
+		siteUrl: `https://andybrown.dev`,
 		social: {
-			twitter: `https://twitter.com/divyanshu013`,
-			github: 'https://github.com/divyanshu013',
-			youtube: 'https://youtube.com/WhatTheJavaScript',
-			soundcloud: 'https://soundcloud.com/divyanshu-maithani',
-			instagram: 'https://instagram.com/divyanshu013',
-			email: 'mailto:div.blackcat@gmail.com',
-			stackoverflow: 'https://stackoverflow.com/users/4952669/divyanshu-maithani',
-			newsletter: 'https://tinyletter.com/divyanshu',
+			twitter: `https://twitter.com/andrewtcb92`,
+			github: `https://github.com/andthomas`,
+			linkedin: `https://www.linkedin.com/in/andy-t-brown/`,
 		},
 	},
 	plugins: [
@@ -61,8 +56,8 @@ module.exports = {
 		{
 			resolve: `gatsby-plugin-manifest`,
 			options: {
-				name: `Div's Blog`,
-				short_name: `Div`,
+				name: `Andy's Blog`,
+				short_name: `Andy`,
 				start_url: `/`,
 				background_color: `#121212`,
 				theme_color: `#1d1d1d`,
