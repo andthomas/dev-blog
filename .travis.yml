@@ -1,13 +1,14 @@
 language: node_js
-before_script:
-  - npm install -g gatsby
 node_js:
   - "10"
+before_script:
+  - npm install -g gatsby
+script:
+  - gatsby build
 deploy:
   provider: firebase
-  script: gatsby build
-  skip_cleanup: true
   on:
     branch: master
+  skip_cleanup: true
 after_success:
   - firebase deploy --project dev-blog --token $FIREBASE_TOKEN
