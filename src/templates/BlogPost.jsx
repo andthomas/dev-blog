@@ -58,7 +58,6 @@ const BlogPost = ({ data, pageContext, location }) => {
 								}}
 							/>
 							<Bio />
-
 							<ul
 								style={{
 									display: `flex`,
