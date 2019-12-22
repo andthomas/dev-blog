@@ -9,7 +9,5 @@ deploy:
   skip_cleanup: true
   on:
     branch: master
-script:
- - echo “Deploying!!”
 after_success:
   - firebase deploy --project dev-blog --token $FIREBASE_TOKEN
