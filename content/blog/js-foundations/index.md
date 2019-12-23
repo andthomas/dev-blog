@@ -246,7 +246,7 @@ In the previous section we touched on the concept of namespace, and as we discov
 		return;
 	}
 
-Scope determines the namespace of a variable, determining whether or not it is visible to other parts of the code. 
+Scope determines the namespace of a variable, and whether or not it is visible to other parts of the code. 
 
 As said before, this is a very important feature, especially for large applications as it prevent variables from colliding and causing bugs in our code. 
 
@@ -351,9 +351,9 @@ As mentioned earlier, objects can contain many types of properties. This include
 
     let person = {  
 	    firstName: "John",  
-	    lastName : "Doe",  
-	    id : 5566,  
-	    fullName : function() {  
+	    lastName: "Doe",  
+	    id: 5566,  
+	    fullName: function() {  
 		    return  this.firstName + " " + this.lastName;  
 	    }  
     };
