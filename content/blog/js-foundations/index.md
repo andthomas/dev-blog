@@ -343,7 +343,7 @@ Ummmm, Ibegyafuckinpardon?!?
 
 Yup. Strings? Objects. Numbers? Objects. Even Arrays? Yup, objects. 
 
-Don't worry about this bit right now, it will become clearer as we explore other faucets of JavaScript. 
+Don't worry about this bit right now, it will become clearer as we explore other facets of JavaScript. 
 
 ### Object Methods
 
