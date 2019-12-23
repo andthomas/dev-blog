@@ -1,6 +1,6 @@
 ---
 title: 'JavaScript Foundations Part 5: Conditionals'
-description: 'I've got a condition.'
+description: 'I have a condition.'
 date: 2019-12-22
 categories: ['web']
 ogImage: ./og-image.png
