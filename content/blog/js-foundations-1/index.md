@@ -1,6 +1,6 @@
 ---
 title: 'JavaScript Foundations Part 1: Introduction and Data Types'
-description: 'Let's get started shall we.'
+description: 'Getting this show on the road'
 date: 2019-12-22
 categories: ['web']
 ogImage: ./og-image.png
