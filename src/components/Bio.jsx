@@ -69,13 +69,14 @@ const Bio = () => {
 			/>
 			<div css={{ fontSize: 16, color: secondary }}>
 				<p>
-					Thanks for visiting the personal blog of <a href={social.twitter}>{author}</a>. I’m a{' '}
-					<a href={social.github}>Web Developer</a> working with Vue and Node. In my spare time I
-					love to cook and ride my motorbike.
+					Thanks for visiting my blog, it's been nice having you here. For a bit of context, I’m a{' '}
+					<a href={social.github}>Web Developer</a> working with Vue and Node. I want to use this
+					blog to give back to a community that has done a lot for me, and would encourage you to do
+					the same ❤️
 				</p>
 				<p>
-					You may follow me on <a href={social.twitter}>twitter</a> or connect with me on{' '}
-					<a href={social.linkedin}>LinkedIn</a>.
+					You can follow me on <a href={social.twitter}>twitter</a> (though I don't tweet much) or
+					connect with me on <a href={social.linkedin}>LinkedIn</a>.
 				</p>
 			</div>
 		</div>
