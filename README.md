@@ -1,24 +1,19 @@
-# Div’s Blog
+# Andy’s Blog
 
-[![Deploy Status](https://api.netlify.com/api/v1/badges/4020d01b-1c29-48f6-bbd2-a030292b406e/deploy-status)](https://app.netlify.com/sites/divyanshu-blog/deploys)
+Blog based off a Gatsby template built by [divanshu013](https://divyanshu013.dev)
 
-## About me
+## TODO
 
-I’m a JavaScript engineer working with React, React Native, GraphQL and Node. I also create [programming videos](https://youtube.com/c/WhatTheJavaScript) with my friend. In my spare time I play music and DoTA.
+Methods
+- String
+- Array
+- Object
 
-You may follow me on [twitter](https://twitter.com/divyanshu013) for latest updates.
+Math
 
-## ToDo
+Events
 
-- [ ] Creating series of blog posts. An easy way to link them.
-- [ ] Bookmarking posts #1
-- [ ] Discuss/share on Twitter or GitHub #2
-- [ ] Heart posts #3
-- [ ] Uses page #5
-- [ ] About page #6
-- [ ] Favorite quotes
-- [ ] Interesting lists (games, podcasts, etc.)
-- [ ] Dynamically switch dark mode based on system settings
+DOM manipulation
 
 ## Licenses
 
