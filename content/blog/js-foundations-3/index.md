@@ -1,7 +1,7 @@
 ---
-title: 'JavaScript Foundations Part 3: Functions'
+title: 'JS Meatballs Part 3: Functions'
 description: 'Get funky'
-date: 2019-12-22
+date: 2019-12-03
 categories: ['web']
 ogImage: ./og-image.png
 ---

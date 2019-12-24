@@ -1,13 +1,10 @@
 ---
-title: 'JavaScript Foundations Part 7: Loops'
+title: 'JS Meatballs Part 7: Loops'
 description: 'Loop da loop'
-date: 2019-12-22
+date: 2019-12-07
 categories: ['web']
 ogImage: ./og-image.png
 ---
-
-
-
 
 ## Loops
 

@@ -1,7 +1,7 @@
 ---
-title: 'JavaScript Foundations Part 5: Conditionals'
+title: 'JS Meatballs Part 5: Conditionals'
 description: 'I have a condition.'
-date: 2019-12-22
+date: 2019-12-05
 categories: ['web']
 ogImage: ./og-image.png
 ---

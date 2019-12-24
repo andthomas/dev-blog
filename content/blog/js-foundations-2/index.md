@@ -1,7 +1,7 @@
 ---
-title: 'JavaScript Foundations Part 2: Variables, Constants and Operators'
-description: 'Looking a little deeper 🤠'
-date: 2019-12-22
+title: 'JS Meatballs Part 2: Variables, Constants and Operators'
+description: 'Looking a little deeper'
+date: 2019-12-02
 categories: ['web']
 ogImage: ./og-image.png
 ---

@@ -1,7 +1,7 @@
 ---
-title: 'JavaScript Foundations Part 1: Introduction and Data Types'
+title: 'JS Meatballs Part 1: Introduction and Data Types'
 description: 'Getting this show on the road'
-date: 2019-12-22
+date: 2019-12-01
 categories: ['web']
 ogImage: ./og-image.png
 ---
@@ -26,6 +26,8 @@ The `//` is how we add comments to our code in JavaScript. Comments are not run 
 
 The `>` sign is used to denote a line showing the return value of a function. 
 
+We dont need to worry about the other stuff that's there right now.
+
 Got it? Great!
 
 Let's dig in.
@@ -33,12 +35,14 @@ Let's dig in.
 ## What is JavaScript?
 JavaScript is a programming language that can run both in a browser and (more recently) on a server. It was written to run in the Netscape browser in 1995. JavaScript can update and change our HTML and CSS, calculate and manipulate data and request and receive data from servers or other websites. 
 
+The latest version of JavaScript (ES6) has brought some really cool enhancements to the language, some of which we'll look into over these posts.
+
 ## Data types
-Data types are a concept that are common across all programming languages. In JavaScript there are 7 primitive data types:
+Data types are a concept that are common across all programming languages. In JavaScript there are 7 data types (also known as primitive data types):
 
 ### 1. Strings
 
-A string is a sequence of characters. A string literal is a sequence surrounded by either single or double quotes.
+A string is a sequence of characters. They are often used to denote words or sentences. A string literal is a sequence surrounded by either single or double quotes.
 
     ‘Stringy string string’ 
     “How’s ya bloody string mate”
@@ -49,7 +53,7 @@ A string literal can also be so-called template literals (introduced into JS in 
 
 ### 2. Numbers
 
-A number can be either a positive or negative integer or a positive or negative decimal (floating point number).
+A number can be either a positive or negative integer or a positive or negative decimal (also known as a floating point number).
 
     1
     -13
@@ -62,13 +66,13 @@ A BigInt is created by adding an 'n' to the end of the integer.
 
     > 8923494n
 
-We generally don't use JavaScript to create programs that handle large numbers. Python is a language that is better suited to this. 
+We generally don't use JavaScript to create programs that handle large numbers. A language like Python is better suited to this. 
 
 ### 4. Booleans
 A boolean represents a value of `true` or `false`.
 
 ### 5. Null
-`null` is just a special value which represents “nothing” or “empty”.
+`null` is a special value which represents “nothing” or “empty”.
 
 ### 6. Undefined
 Not to be confused with null, the meaning of `undefined` is “value is not assigned”.

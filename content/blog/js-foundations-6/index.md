@@ -1,7 +1,7 @@
 ---
-title: 'JavaScript Foundations Part 6: Truthy, Falsey and Type Coercion'
+title: 'JS Meatballs Part 6: Truthy, Falsey and Type Coercion'
 description: 'The whole truth(y)... and falsey... and type coercion'
-date: 2019-12-22
+date: 2019-12-06
 categories: ['web']
 ogImage: ./og-image.png
 ---

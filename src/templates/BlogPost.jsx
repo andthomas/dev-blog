@@ -57,7 +57,6 @@ const BlogPost = ({ data, pageContext, location }) => {
 									marginBottom: rhythm(1),
 								}}
 							/>
-							<Bio />
 							<ul
 								style={{
 									display: `flex`,
@@ -87,6 +86,7 @@ const BlogPost = ({ data, pageContext, location }) => {
 									)}
 								</li>
 							</ul>
+							<Bio />
 						</Layout>
 					)}
 				</ThemeContext.Consumer>
