@@ -41,8 +41,12 @@ const Layout = ({ location, children }) => {
 	return (
 		<div
 			css={{
+				// marginLeft: '509px',
 				marginLeft: location.pathname === rootPath ? 64 : `auto`,
 				marginRight: location.pathname === rootPath ? 64 : `auto`,
+				[mediaMax.large]: {
+					// marginLeft: '0px',
+				},
 				[mediaMax.small]: {
 					marginLeft: 'auto',
 					marginRight: 'auto',

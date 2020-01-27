@@ -1,9 +1,9 @@
 ---
-title: 'JS Meatballs Part 7: Loops'
+title: 'JS Meatballs Pt. 7: Loops'
 description: 'Loop da loop'
 date: 2019-12-07
 categories: ['web']
-ogImage: ./og-image.png
+ogImage: ../og-images/meatballs.png
 ---
 
 ## Loops

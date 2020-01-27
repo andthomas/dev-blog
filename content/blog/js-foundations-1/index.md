@@ -1,15 +1,14 @@
 ---
-title: 'JS Meatballs Part 1: Introduction and Data Types'
+title: 'JS Meatballs Pt. 1: Introduction and Data Types 🍝🍝🍝'
 description: 'Getting this show on the road'
-date: 2019-12-01
-categories: ['web']
-ogImage: ./og-image.png
+date: 2019-08-01
+categories: ['web', 'JavaScript']
+ogImage: ../og-images/meatballs.png
 ---
 
+Welcome to JavaScript Meatballs!! A collection of small but meaty posts on the foundations of JavaScript.
 
-I've created this guide to bring together what I believe to be the most important concepts for developing a foundational knowledge of JavaScript. It is not an exhaustive guide but is reasonably detailed. Initially you can use this to gain a high level understanding of JavaScript, then come back to it as a point of reference as you encounter JS in the wild. Please don't try and memorise everything in this guide. It's important for now that you just have a passing familiarity with the concepts here, to provided a foundation upon which you can build your own understanding of JavaScript.
-
-I've written this with the assumption that you have some knowledge of HTML and CSS.
+I've created this series of posts to bring together some of the more important concepts when developing a foundational knowledge of JavaScript. It is not an exhaustive guide but is reasonably detailed. 
 
 In this guide, code examples will look like this:
 
@@ -24,7 +23,7 @@ The `//` is how we add comments to our code in JavaScript. Comments are not run 
 
 `console.log()` is a in-built JavaScript function that prints the return value of the code to the JavaScript console. A console is an environment/program that can run JavaScript. You can see a console either here on [JS Bin](https://jsbin.com/?js,console) or in the developer tools of your browser. Have a play with the console and try using `console.log()` yourself. 
 
-The `>` sign is used to denote a line showing the return value of a function. 
+The `>` sign is the return value of a function. When we run a function in JavaScript, it will always return some data/value/function for us.
 
 We dont need to worry about the other stuff that's there right now.
 
@@ -47,13 +46,13 @@ A string is a sequence of characters. They are often used to denote words or sen
     ‘Stringy string string’ 
     “How’s ya bloody string mate”
 
-A string literal can also be so-called template literals (introduced into JS in ES6) by using backticks.
+A string literal can also be so-called template literals (introduced into JavaScript in ES6) by using backticks.
 
     `Literally a template literal example`
 
 ### 2. Numbers
 
-A number can be either a positive or negative integer or a positive or negative decimal (also known as a floating point number).
+A number can be either a positive or negative integer (whole number) or a positive or negative decimal (also known as a floating point number).
 
     1
     -13

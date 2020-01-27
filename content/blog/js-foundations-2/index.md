@@ -1,9 +1,9 @@
 ---
-title: 'JS Meatballs Part 2: Variables, Constants and Operators'
+title: 'JS Meatballs Pt. 2: Variables, Constants and Operators'
 description: 'Looking a little deeper'
 date: 2019-12-02
 categories: ['web']
-ogImage: ./og-image.png
+ogImage: ../og-images/meatballs.png
 ---
 
 ## Variables and constants

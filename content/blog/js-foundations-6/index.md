@@ -1,9 +1,9 @@
 ---
-title: 'JS Meatballs Part 6: Truthy, Falsey and Type Coercion'
+title: 'JS Meatballs Pt. 6: Truthy, Falsey and Type Coercion'
 description: 'The whole truth(y)... and falsey... and type coercion'
 date: 2019-12-06
 categories: ['web']
-ogImage: ./og-image.png
+ogImage: ../og-images/meatballs.png
 ---
 
 ## Truthy and Falsey  

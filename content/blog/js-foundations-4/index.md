@@ -1,9 +1,9 @@
 ---
-title: 'JS Meatballs Part 4: Data Structures (Arrays and Objects)'
+title: 'JS Meatballs Pt. 4: Data Structures (Arrays and Objects)'
 description: 'The meaty stuff 🤠'
 date: 2019-12-04
 categories: ['web']
-ogImage: ./og-image.png
+ogImage: ../og-images/meatballs.png
 ---
 
 ## Data structures
