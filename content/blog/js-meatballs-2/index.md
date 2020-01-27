@@ -1,6 +1,6 @@
 ---
 title: 'JS Meatballs Pt. 2: Variables, Constants and Operators 🚀'
-description: 'Diving into declaring identifiers with let, const and var. And a look into assignment, comparison, arithmetic and logical operators.'
+description: 'Diving into declaring variables and constants with let, const and var. And a look into assignment, comparison, arithmetic and logical operators.'
 date: 2019-09-12
 categories: ['web', 'JavaScript', 'variables', 'operators']
 ogImage: ../og-images/meatballs.png
