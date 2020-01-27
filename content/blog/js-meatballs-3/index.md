@@ -1,7 +1,7 @@
 ---
 title: 'JS Meatballs Pt. 3: Functions 🤖'
 description: 'Getting funky with functions. We take a look at performing tasks with functions, as well as the concepts of namespace and scope'
-date: 2019-12-03
+date: 2019-10-03
 categories: ['web', 'meatballs', 'JavaScript']
 ogImage: ../og-images/meatballs.png
 ---

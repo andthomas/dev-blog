@@ -1,21 +1,21 @@
 ---
-title: 'JS Meatballs Pt. 4: Data Structures (Arrays and Objects)'
-description: 'The meaty stuff 🤠'
-date: 2019-12-04
-categories: ['web']
+title: 'JS Meatballs Pt. 4: Data Structures (Arrays and Objects) 🤠'
+description: 'In this post, we dive into the two most common ways in which we structure data in JavaScript with Arrays and Objects.'
+date: 2019-10-09
+categories: ['web', 'meatballs', 'JavaScript']
 ogImage: ../og-images/meatballs.png
 ---
 
 ## Data structures
 
-How's it going? Are you having fun? Probably not because this has been pretty dry so far. Again, don't feel like you have to memorise everything here or even understand it 100%. The more you are exposed to these concepts the more they will make sense and solidify in your mind. 
+How's it going? Are you having fun? Probably not because this has been pretty dry so far. Again, don't feel like you have to memorise everything here or even understand it 100%. The more you are exposed to these concepts in the wild the more they will make sense and solidify in your mind. 
 
-What I want to talk about next is some of the most important stuff in this guide. This is the concept of Arrays and Objects.
+What I want to talk about next is some of the most important stuff in this series. These are the concepts of Arrays and Objects.
 
-So far we have only used variables to store individual values, one at a time. But what if we want to store many values in one variable? Well it's at this point where we can reach for Arrays and Objects.
+So far we have only used variables or constants to store individual values, one at a time. But what if we want to store many values in one variable? Well it's at this point where we can reach for Arrays and Objects.
 
 ### Arrays
-An array is a list of data with some special properties and methods (functions) we can use on them. We can add elements to arrays, remove elements, iterate over them to access each value and do a bunch of other stuff. This is all in the name of making our data easy to access and manipulate.
+An array is a list of data with some special properties and methods (functions) built into them. We can add elements to arrays, remove elements, iterate over them to access each value and do a bunch of other stuff. This is all in the name of making our data easy to access and manipulate.
 
 An array looks like this:
 

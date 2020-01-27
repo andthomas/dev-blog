@@ -2,7 +2,7 @@
 title: 'JS Meatballs Pt. 7: Loops'
 description: 'Loop da loop'
 date: 2019-12-07
-categories: ['web']
+categories: ['web', 'meatballs', 'JavaScript']
 ogImage: ../og-images/meatballs.png
 ---
 

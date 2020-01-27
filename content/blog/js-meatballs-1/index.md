@@ -10,6 +10,8 @@ Welcome to JavaScript Meatballs!! A collection of small but meaty posts on the f
 
 I've created this series of posts to bring together some of the more important concepts when developing a foundational knowledge of JavaScript. It is not an exhaustive guide but is reasonably detailed. 
 
+I started writing this guide while working as a Teachers Assistant for a part-time web dev course, and is very much intended as a companion to learning the fundamentals of JavaScript.
+
 In this guide, code examples will look like this:
 
     // Here is some code

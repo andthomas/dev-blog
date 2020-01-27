@@ -2,7 +2,7 @@
 title: 'JS Meatballs Pt. 6: Truthy, Falsey and Type Coercion'
 description: 'The whole truth(y)... and falsey... and type coercion'
 date: 2019-12-06
-categories: ['web']
+categories: ['web', 'meatballs', 'JavaScript']
 ogImage: ../og-images/meatballs.png
 ---
 

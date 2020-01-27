@@ -2,7 +2,7 @@
 title: 'JS Meatballs Pt. 5: Conditionals'
 description: 'I have a condition.'
 date: 2019-12-05
-categories: ['web']
+categories: ['web', 'meatballs', 'JavaScript']
 ogImage: ../og-images/meatballs.png
 ---
 
