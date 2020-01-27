@@ -21,17 +21,17 @@ An array looks like this:
 
     let shoppingList = ["Apples", "Pasta", "Milk", "Bread"];
 
-The values in an array can be any data type, a function, variable, object or even other arrays. To access a specific value of an array we can use its index. An index is just a number assigned to an element of an array. These numbers are in order and start at zero. 
+The values in an array can be any data type, a function, variable, object or even other arrays. To access a specific value of an array we can use its index. An index is just a number assigned to an element of an array. These numbers are in order and start at zero. We use square brackets and the index of the item in the array to access the value we want.
 
-    let arrayExample = ["dingo", 18, ["cat", "trolley"]];
+	let arrayExample = ["dingo", 18, ["cat", "trolley"]];
 
-	console.log(arrayExample[0]);
+	arrayExample[0];
     > "dingo"
     
-	console.log(arrayExample[1]);
+	arrayExample[1];
     > 18
     
-	console.log(arrayExample[2]);
+	arrayExample[2];
     > ["cat", "trolley"]
 
 We can update the value of an element in an array using its index too.
