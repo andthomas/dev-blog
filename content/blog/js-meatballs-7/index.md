@@ -1,7 +1,7 @@
 ---
-title: 'JS Meatballs Pt. 7: Loops'
-description: 'Loop da loop'
-date: 2019-12-07
+title: 'JS Meatballs Pt. 7: Loops ♻️'
+description: 'Iterating over data structures with JavaScripts built in looping functions and methods.'
+date: 2019-12-09
 categories: ['web', 'meatballs', 'JavaScript']
 ogImage: ../og-images/meatballs.png
 ---

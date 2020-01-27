@@ -1,7 +1,7 @@
 ---
 title: 'JS Meatballs Pt. 5: Conditionals 🧐'
 description: 'A brief look into conditionals with if, else if and else.'
-date: 2019-12-05
+date: 2019-11-05
 categories: ['web', 'meatballs', 'JavaScript']
 ogImage: ../og-images/meatballs.png
 ---
