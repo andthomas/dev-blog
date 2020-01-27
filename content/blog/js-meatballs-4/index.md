@@ -1,6 +1,6 @@
 ---
 title: 'JS Meatballs Pt. 4: Data Structures (Arrays and Objects) 🤠'
-description: 'In this post, we dive into the two most common ways in which we structure data in JavaScript with Arrays and Objects.'
+description: 'This post examines the two most common ways in which we structure data in JavaScript with Arrays and Objects.'
 date: 2019-10-09
 categories: ['web', 'meatballs', 'JavaScript']
 ogImage: ../og-images/meatballs.png
@@ -8,11 +8,7 @@ ogImage: ../og-images/meatballs.png
 
 ## Data structures
 
-How's it going? Are you having fun? Probably not because this has been pretty dry so far. Again, don't feel like you have to memorise everything here or even understand it 100%. The more you are exposed to these concepts in the wild the more they will make sense and solidify in your mind. 
-
-What I want to talk about next is some of the most important stuff in this series. These are the concepts of Arrays and Objects.
-
-So far we have only used variables or constants to store individual values, one at a time. But what if we want to store many values in one variable? Well it's at this point where we can reach for Arrays and Objects.
+So far we've only used variables or constants to store individual values, one at a time. But what if we want to store many values in one variable? Well it's at this point where we can reach for Arrays and Objects.
 
 ### Arrays
 An array is a list of data with some special properties and methods (functions) built into them. We can add elements to arrays, remove elements, iterate over them to access each value and do a bunch of other stuff. This is all in the name of making our data easy to access and manipulate.
@@ -26,25 +22,28 @@ The values in an array can be any data type, a function, variable, object or eve
 	let arrayExample = ["dingo", 18, ["cat", "trolley"]];
 
 	arrayExample[0];
-    > "dingo"
+	> "dingo"
     
 	arrayExample[1];
-    > 18
+	> 18
     
 	arrayExample[2];
-    > ["cat", "trolley"]
+	> ["cat", "trolley"]
+
+	arrayExample[2][0]
+	> "cat";
 
 We can update the value of an element in an array using its index too.
 
-    let cars = ["Volvo", "Saab"];
+	let cars = ["Volvo", "Saab"];
 	console.log(cars);
 	> ["Volvo", "Saab"];
-	
+
 	cars[0] = "Honda";
 	console.log(cars);
 	> ["Honda", "Saab"];
 
-We can even add a new element but defining a new index.
+We can even add a new element by defining a new index.
 
 	let cars = ["Volvo", "Saab"];
 	cars[2] = "Lexus";
@@ -53,40 +52,40 @@ We can even add a new element but defining a new index.
 
 Arrays also have built in properties that we can access. The most common property that we would want to access is the `length` property. Accessing the length property of the array returns the number of elements that are contained in the array as an integer.
 
-    let cars = ["Volvo", "Saab"];
-	console.log(cars.length);
+	let cars = ["Volvo", "Saab"];
+	cars.length;
 	> 2
 
-I mentioned at the start of this section that arrays also have some special methods (functions) we can use on them. We will come back to this after we've covered objects and looping. 
+I mentioned at the start of this section that arrays also have some special methods (functions) we can use on them. We will come back to this a little later in the series. 
 
 ### Objects
-Objects are the most important data type in JavaScript. They are defined by a set of key/value pairs surrounded by curly brackets. These key/value pairs are properties of the object. The keys of the properties can be strings or integers. The values in an object can be any data type, a function, variable, arrays or even other objects.
+Objects are the most important data structure in JavaScript. They are defined by a set of key/value pairs surrounded by curly braces. These key/value pairs are properties of the object. The keys of the properties can be strings or integers. The values in an object can be any data type, a function, variable, arrays or other objects.
 
-    let car = {
-	    brand: "Honda",
-	    color: "Red",
-	    doors: 4
+	let car = {
+		brand: "Honda",
+		color: "Red",
+		doors: 4
 	};
 
 Unlike arrays, we can access values within an object using the key associated with a specific value.
 
-    let car = {
-	    brand: "Toyota",
-	    color: "Blue",
-	    doors: 4
+	let car = {
+		brand: "Toyota",
+		color: "Blue",
+		doors: 4
 	};
 
-    console.log(car['brand']);
-    > Toyota
-    console.log(car.brand);
-    > Toyota
+	console.log(car['brand']);
+	> Toyota
+	console.log(car.brand);
+	> Toyota
 
 Notice how we can access the value "Toyota" either by using `car['brand']` or `car.brand`. Either way is all good, but we can use the first method if, say, we want to pass the key as a variable.
 
-    let car = {
-	    brand: "Toyota",
-	    color: "Blue",
-	    doors: 4
+	let car = {
+		brand: "Toyota",
+		color: "Blue",
+		doors: 4
 	};
 	const selectedFeature = "color";
 	console.log(car[selectedFeature]);
