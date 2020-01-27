@@ -27,14 +27,14 @@ In JavaScript, we have three types of conditionals. These are `if()`, `else if()
     
     if (numberOfApples < 2) {
 	    console.log('Eat the apple');
-	} else if (numberOfApples <= 6) {
-	    console.log('Bake apple pie');
-	} else if (numberOfApples <= 8) {
-	    console.log('Bake apple pie');
-	} else {
-	    console.log('Make apple cider');
-	}
-	
+		} else if (numberOfApples <= 6) {
+				console.log('Bake apple pie');
+		} else if (numberOfApples <= 8) {
+				console.log('Bake apple pie');
+		} else {
+				console.log('Make apple cider');
+		}
+		
 	> Make apple cider
 
 In the example above, we can see a block of conditionals. The first conditional is the if statement (which we've already seen).

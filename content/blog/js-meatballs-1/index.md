@@ -1,7 +1,7 @@
 ---
-title: 'JS Meatballs Pt. 1: Introduction and Data Types 🍝🍝🍝'
-description: 'Getting this show on the road'
-date: 2019-08-01
+title: 'JS Meatballs Pt. 1: Introduction and Data Types 🍝'
+description: 'Introducing meatballs, a collection of small but meaty posts on the foundations of JavaScript. Also, we look at the 7 hottest primitive data types for JavaScript in 2020.'
+date: 2019-09-01
 categories: ['web', 'JavaScript']
 ogImage: ../og-images/meatballs.png
 ---
@@ -21,7 +21,7 @@ The coloured area is a block of code.
 
 The `//` is how we add comments to our code in JavaScript. Comments are not run with the rest of the code and only act as notes to ourselves and other people that read our code. 
 
-`console.log()` is a in-built JavaScript function that prints the return value of the code to the JavaScript console. A console is an environment/program that can run JavaScript. You can see a console either here on [JS Bin](https://jsbin.com/?js,console) or in the developer tools of your browser. Have a play with the console and try using `console.log()` yourself. 
+`console.log()` is an in-built JavaScript function that prints the return value of the code to the JavaScript console. A console is an environment/program that can run JavaScript. You can see a console either here on [JS Bin](https://jsbin.com/?js,console) or in the developer tools of your browser. Have a play with the console and try using `console.log()` yourself. 
 
 The `>` sign is the return value of a function. When we run a function in JavaScript, it will always return some data/value/function for us.
 
@@ -78,7 +78,7 @@ Not to be confused with null, the meaning of `undefined` is “value is not assi
 
 ### 7. Symbols
 Symbols are new in the latest version of JavaScript (ES6). A symbol is a unique identifier whose value is its description. Two Symbols with the exact same description are not equal. Symbols are used when a completely unique value is needed. 
-Sounds confusing? Well it bloody is and its a fairly advanced feature which we don't need to worry about right now.
+Sounds confusing? Well it bloody is and it's a fairly advanced feature which we don't need to worry about right now.
 
     Symbol(uniqueNewYork)
 
