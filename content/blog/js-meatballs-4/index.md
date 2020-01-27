@@ -94,7 +94,7 @@ Notice how we can access the value "Toyota" either by using `car['brand']` or `c
 
 Objects are the most important concept in JavaScript. It is the basis upon which JavaScript is built. You may have heard JavaScript referred to as an object-oriented programming language. That's because EVERYTHING in JavaScript is an object. 
 
-Ummmm, Ibegyafuckinpardon?!?
+Ummmm, Ibegyafuckinpardon?!? 🤯
 
 Yup. Strings? Objects. Numbers? Objects. Even Arrays? Yup, objects. 
 
