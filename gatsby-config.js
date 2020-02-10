@@ -6,7 +6,7 @@ module.exports = {
 		description: `Blog for dev and other activities`,
 		siteUrl: `https://andybrown.dev`,
 		social: {
-			twitter: `https://twitter.com/andrewtcb92`,
+			twitter: `https://twitter.com/_andytcb`,
 			github: `https://github.com/andthomas`,
 			linkedin: `https://www.linkedin.com/in/andy-t-brown/`,
 		},

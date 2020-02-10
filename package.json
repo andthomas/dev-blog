@@ -1,12 +1,11 @@
 {
-	"name": "divyanshu013-blog",
+	"name": "andybrown-blog",
 	"private": true,
-	"description": "Personal blog of Divyanshu Maithani",
+	"description": "Personal blog of Andy Brown",
 	"version": "1.0.0",
 	"author": {
-		"email": "div.blackcat@gmail.com",
-		"name": "Divyanshu Maithani",
-		"url": "https://github.com/divyanshu013"
+		"name": "Andy Brown",
+		"url": "https://blog.andybrown.dev"
 	},
 	"dependencies": {
 		"@divyanshu013/media": "^1.0.0",
@@ -60,8 +59,6 @@
 		"prettier": "^1.18.2"
 	},
 	"keywords": [
-		"divyanshu",
-		"maithani",
 		"gatsby",
 		"blog"
 	],

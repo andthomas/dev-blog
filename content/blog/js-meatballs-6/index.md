@@ -63,7 +63,7 @@ There are three kinds of type coercion. These are:
 - Boolean
 
 
-Lets take a look at this example:
+Let's take a look at this example:
 
     console.log("0" + 18);
     > 018
@@ -76,7 +76,7 @@ We can coerce a type into a boolean value using the not operator (!):
 	!food;
 	> false
 
-We can coerce it directly into its inheret boolean value by using the not operator twice:
+We can coerce it directly into its inherent boolean value by using the not operator twice:
 
 	let animal = 'koala';
 	!!animal;

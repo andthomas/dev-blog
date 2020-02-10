@@ -69,10 +69,10 @@ const Bio = () => {
 			/>
 			<div css={{ fontSize: 16, color: secondary }}>
 				<p>
-					Thanks for visiting my blog, it's been nice having you here. For a bit of context, I’m a{' '}
-					<a href={social.github}>Web Developer</a> working with Vue and Node. I want to use this
-					blog to give back to a community that has done a lot for me, and would encourage you to do
-					the same ❤️
+					Thanks for dropping by. I’m a <a href={social.github}>JavaScript Developer</a> currently
+					working in Sydney. I want to use this blog to give back to a community that has given a
+					lot to me. I hope what you've read here has either taught you something, given you some
+					inspiration or just entertained you for a bit.
 				</p>
 				<p>
 					You can follow me on <a href={social.twitter}>twitter</a> (though I don't tweet much) or
