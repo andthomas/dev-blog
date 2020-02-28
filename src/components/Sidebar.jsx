@@ -45,7 +45,7 @@ const Sidebar = () => {
 				padding: '16px 64px',
 				alignSelf: 'start',
 				[mediaMax.large]: {
-					padding: `16px 0 ${rhythm(2)} 0`,
+					padding: `16px 0 0 0`,
 					margin: '24px 32px',
 				},
 			}}
