@@ -38,19 +38,13 @@ const Sidebar = () => {
 	const { author, bio, social } = data.site.siteMetadata;
 	const { theme } = useContext(ThemeContext);
 	const { muted } = getTheme(theme);
-	const borderStartingColor = theme === 'light' ? 'hsla(0, 0%, 0%, 0.1)' : 'hsla(0, 0%, 100%, 0.1)';
 	return (
 		<nav
 			css={{
-				borderRight: '1px solid',
 				margin: '24px 0',
 				padding: '16px 64px',
 				alignSelf: 'start',
-				borderImage: `linear-gradient(to bottom, ${borderStartingColor}, hsla(0, 0%, 0%, 0)) 1 100%`,
 				[mediaMax.large]: {
-					borderBottom: '1px solid',
-					borderImage: `linear-gradient(to right, ${borderStartingColor}, hsla(0, 0%, 0%, 0)) 1 100%`,
-					borderImageSlice: 1,
 					padding: `16px 0 ${rhythm(2)} 0`,
 					margin: '24px 32px',
 				},
