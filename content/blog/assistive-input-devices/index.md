@@ -114,7 +114,7 @@ A thumb mouse is an alternative mouse with a sensitive analogue joystick. It all
 When we talk about accessibility within the context of web development oftentimes the conversation is overarchingly centered around screen reader accessibility. Not to minimise the importance of screen reader accessibility, there's another faction of our users who also need to be on our minds when we're building accessible interfaces. Many of them use the hardware listed above, as well as other accessible input devices. As such, some points we might want to consider to build truly ability agnostic interfaces are:
  
 - Large touch points - are our buttons large enough or is there enough padding around them if a user has limited accuracy when clicking or interacting with the interface?
-- Fewest possible interactions to complete a task - how can we reduce the number of input events required to complete the task at hand?
+- Minimising the number of interactions to complete a task - how can we reduce the number of input events required to complete the task at hand?
 - Efficient use of form elements - can this form input use a radio button, checkbox or dropdown instead of a text input? If we need a text input, can we incorporate an autocomplete feature?
 - Semantic HTML for proper focus/tabbing - do all the necessary elements on the page have a tabbable index?
  
