@@ -126,7 +126,7 @@ When we talk about accessibility within the context of web development oftentime
 - Large touch points - are our buttons large enough or is there enough padding around them if a user has limited accuracy when clicking or interacting with the interface?
 - Minimising the number of interactions to complete a task - how can we reduce the number of input events required to complete the task at hand?
 - Efficient use of form elements - can this form input use a radio button, checkbox or dropdown instead of a text input? If we need a text input, can we incorporate an autocomplete feature?
-- Semantic HTML for proper focus/tabbing - do all necessary elements on the page have a tabbable index?
+- Semantic HTML for proper focus/tabbing - are all necessary elements on the page tabbable? Does their index order make sense?
  
 I think the most important point to take away from this is that assistive technology (while it's great for making unusable technology usable) can be cumbersome, unintuitive and inefficient. And as developers we can improve the experience a user of assistive hardware has on our site by asking some pretty simple questions of ourselves, our designers and UX engineers.
 
