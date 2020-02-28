@@ -115,13 +115,23 @@ Much like keyboards, accessible mice have the benefit of working out of the box 
 
 ### BigTrack trackball
 
-### Joysticks
+The BigTrack trackball mouse has an oversized trackball which is moved left, right, back and forth with a users hand, arm or foot. It requires less fine motor skills to be operated and has large left and right click buttons.
 
- 
+![A bigtrack trackball](https://imgur.com/nCPrWRR.png)
+
+### Thumb mouse
+
+A thumb mouse is an alternative mouse with a sensitive analogue joystick. It allows for control of the users device with minimal movement of the thumb or fingers. They can also have additional buttons that can be personalised to meet a users specific needs. 
+
+![A thumb mouse attached to a users hand](https://imgur.com/2CnC63X.png)
+
 ## Conclusion: Designing for assistive tech
 
 When we talk about accessibility within the context of web development oftentimes the conversation is overarchingly centered around screen reader accessibility. Not to minimise the importance of screen reader accessibility, there's another faction of our users who also need to be on our minds when we're building accessible interfaces. Many of them use the hardware listed above, as well as other accessible input devices. As such, some points we might want to consider to build truly ability agnostic interfaces are:
 
-- Large touch points - padding around buttons
-- Fewest possible interactions to complete a task
-- Symantic HTML for proper focus/tabbing
+- Large touch points - are our buttons large enough or is there enough padding around them if a user has limited accuracy when clicking or interacting with the interface?
+- Fewest possible interactions to complete a task - how can we reduce the number of input events required to complete the task at hand? 
+- Efficient use of form elements - can this form input use a radio button, checkbox or dropdown instead of a text input? If we need a text input, can we incorporate an autocomplete feature?
+- Symantic HTML for proper focus/tabbing - do all the necessary elements on the page have a tabbable index?
+
+I think the most important point to take away from this is that assistive technology, while it's great for unusable technology useable, can be cumbersome, unintuitive and innefficient. And as developers we can improve the experience a user of assistive hardware has on our site by asking some pretty simple questions of ourselves, our designers and UX engineers.
