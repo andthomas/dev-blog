@@ -119,7 +119,7 @@ A thumb mouse is an alternative mouse with a sensitive analogue joystick. It all
  
 ![A thumb mouse attached to a users hand](https://res.cloudinary.com/djq5ic5br/image/upload/q_auto/14_ygxwdg.png)
  
-## Designing for assistive tech
+## Designing for assistive hardware
  
 When we talk about accessibility within the context of web development oftentimes the conversation is overarchingly centered around screen reader accessibility. Not to minimise the importance of screen reader accessibility, there's another faction of our users who also need to be on our minds when we're building accessible interfaces. Many of them use hardware listed above, as well as other accessible input devices. So, some points we might want to consider to build truly ability agnostic interfaces are:
  
