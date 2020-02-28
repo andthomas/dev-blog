@@ -5,133 +5,118 @@ date: 2020-02-08
 categories: ['tech', 'hardware', 'accessibility']
 ogImage: ../og-images/andy-og-image.png
 ---
- 
 Not everyone is able to use a computer with a conventional keyboard and mouse. Sometimes, our bodies just don't work in the way that an out of the box laptop, desktop, tablet or phone are designed to be used.
- 
 This is where assistive technology comes into play.
- 
 Going into this post I didn't know much about assistive technology, but was keen to learn more about how this technology fits the physical needs of its users, and how the software which interprets these devices operates. Quickly though, I found out there is an abundance of assistive technology, each designed to suit the specific needs of their users. So in the interests of brevity, this post is only about assistive input hardware.
-
+ 
 The way in which assistive hardware operates should help to inform how we design digital experiences to make all technology accessible for everyone.
- 
 ## 1. Head Tracking/Gaze Tracking
- 
 Chances are if you're reading this blog you've probably played with a Wii. Assistive tracking technology works in a similar fashion, only instead of a remote sending motion data to an infrared sensor, a camera tracks a point (or points) on a user which is translated into a position coordinate on a screen.
- 
 Head tracking requires a user to wear a reflective dot on their forehead or glasses, and for the tracking camera to be mounted on their device, facing towards them. Then, through a combination of their own software and existing mouse drivers, enables the user to control the mouse by moving their head. Head tracking technology is great for people with very restricted movement, and doesn't require the user to wear any bulky or uncomfortable devices. It is, however, pretty expensive stuff and may not always be compatible with the users device, or operating system.
-
+ 
 ![A head tracking device user wearing a reflective dot in front of their tracking camera](https://res.cloudinary.com/djq5ic5br/image/upload/q_auto/1_uau3qg.png)
- 
 Gaze tracking (or gaze interaction) works in a similar manner, however, instead of the user wearing a reflective dot on their head, a camera captures the movement of the users eyes. This works in conjunction with an infrared light to illuminate the eyes and the camera captures the reflection off the retina and the cornea, referred to as “red-eye” and “the glint” respectively. These points are used to build a 3D model of the users eyes to determine: where the users eyes are looking (the gaze point) and where the users eyes are in space relative to the computer (track box). Similarly to head tracking technology, gaze tracking is lightweight, and powerful for people with restricted body movement. Gaze tracking even goes a step further, and can be used by individuals who are unable to manoeuvre their head or neck. Gaze tracking does also run into compatibility issues, and is expensive technology.
-
+ 
 ![A PC user has their gaze tracking device mounted at the base of their monitor to track their eye movements](https://res.cloudinary.com/djq5ic5br/image/upload/q_auto/2_qs0fep.png)
- 
- 
 ## 2. Head/Chin/Mouth Pointers
- 
 Head pointers are made up of an adjustable headband with a rod extension, to which a stylus can be attached. These are primarily used by people with very limited use of their hands/arms. The user maneuvers their head to point and operate their keyboard or touchscreen.
- 
 ![A head pointer user uses their device to control a custom computer interface](https://res.cloudinary.com/djq5ic5br/image/upload/q_auto/3_ekfgdz.png)
- 
-Some consider headpointers with forehead protrusions to be less accurate and more difficult to use than mouth pointers or chin pointers, as the placement of the stylus at the top of ones eyeline makes it difficult or even uncomfortable to see the screen.
- 
-A benefit of the head pointer as apposed to head-tracking devices is that they are agnostic to the device they operate and don't require software to be operational. They also don't use any power and are relatively cheap. However they are quite bulky and can be uncomfortable, and are more cumbersome to use than head or gaze tracking technology.
- 
+Some consider headpointers with forehead protrusions to be less accurate and more difficult to use than mouth pointers or chin pointers, as the placement of the stylus at the top of one's eye line makes it difficult or even uncomfortable to see the screen.
+A benefit of the head pointer as opposed to head-tracking devices is that they are agnostic to the device they operate and don't require software to be operational. They also don't use any power and are relatively cheap. However they are quite bulky and can be uncomfortable, and are more cumbersome to use than head or gaze tracking technology.
 ## 3. Single Switch Entry Devices (Adaptive Switches)
-
-Single switch entry devices are pieces of hardware which take a signal from a switch to control an on screen keyboard or other assistive software. Much like in the way the left click of a mouse works, the switch selects an option on the screen while a cursor moves across all available options or focus points on a screen. Most switches are wired and send only one type of signal to the device they are operating. 
-
+ 
+Single switch entry devices are pieces of hardware which take a signal from a switch to control an on screen keyboard or other assistive software. Much like in the way the left click of a mouse works, the switch selects an option on the screen while a cursor moves across all available options or focus points on a screen. Most switches are wired and send only one type of signal to the device they are operating.
+ 
 There are a multitude of single switch entry devices, each designed to suit the specific needs of their user. A handful of them are:
-
+ 
 ### Jelly bean switch
-
+ 
 Jelly bean switches provide users with a target area of about 5cm in circumference. These switches click when pressed to provide auditory and tactile feedback. Jelly bean switches are somewhat affordable, retailing for around $65USD.
-
+ 
 ![A young legend demonstrating how a jelly bean switch is used](https://res.cloudinary.com/djq5ic5br/image/upload/q_auto/4_iu3rb6.png)
-
+ 
 ### Sip and puff
-
-A sip and puff is a switch which the user holds in their mouth (like a straw). A gentle sip or puff of air into a pneumatic tube sends air flowing one of two directions through a sensor. The sensor detects the flow of air and sends an electrical signal to the computer or device. Sip and puff devices are great for users with very limited mobility and are less physically taxing than other input devices. Sip and Puff's retail for around $300, making them one of the more expensive switch entry devices. 
-
+ 
+A sip and puff is a switch which the user holds in their mouth (like a straw). A gentle sip or puff of air into a pneumatic tube sends air flowing one of two directions through a sensor. The sensor detects the flow of air and sends an electrical signal to the computer or device. Sip and puff devices are great for users with very limited mobility and are less physically taxing than other input devices. Sip and Puff's retail for around $300, making them one of the more expensive switch entry devices.
+ 
 ![A user with a sip and puff held in the side of his mouth](https://res.cloudinary.com/djq5ic5br/image/upload/q_auto/5_cybl3c.png)
-
+ 
 ### String switch
-
+ 
 String switches are designed to be operated by the pull of a string. By pulling the string an signal is sent from the switch to the device being used. The string switch is lightweight and can be readily used by people with limited hand/finger control or strength.
-
+ 
 ![A string switch being pulled by a users hand](https://res.cloudinary.com/djq5ic5br/image/upload/q_auto/6_cs3as5.png)
-
+ 
 ### Pillow switch
-
-A pillow switch provides a soft surface to activate a switch with a users head or cheek. They can be mounted to a users wheelchair and provide auditory and tactile feedback. Although I've never used a pillow switch personally, I would imagine this switch to cause discomfort after extended use from the repetitive head/neck movement. Aside from that, the large target area means users with limited motor skill in their head/neck can use this switch more easily than a device that relies on steady head/neck control.
-
+ 
+A pillow switch provides a soft surface to activate a switch with a user's head or cheek. They can be mounted to a user's wheelchair and provide auditory and tactile feedback. Although I've never used a pillow switch personally, I would imagine this switch to cause discomfort after extended use from the repetitive head/neck movement. Aside from that, the large target area means users with limited motor skill in their head/neck can use this switch more easily than a device that relies on steady head/neck control.
+ 
 ![A user demonstrates how a pillow switch can be mounted to the side of their chair and comfortably pressed with their head](https://res.cloudinary.com/djq5ic5br/image/upload/q_auto/7_menymi.png)
-
+ 
 ### Pal pad switches
-
+ 
 Pal pad's are highly sensitive pressure activated membrane switches, requiring only a slight touch to activate. You've almost certainly used a membrane switch at some point, as they are commonly found on washing machines or thin devices as they are water resistant and have a low profile. Pal pads are very affordable, retailing for around $40USD.
-
+ 
 ![A pal pad switch being used to operate an iPad](https://res.cloudinary.com/djq5ic5br/image/upload/q_auto/8_iooop4.png)
-
  
 ## 4. Keyboards and Keyboard Modifications
-
+ 
 Changing the design of a keyboard so it is more accessible for a range of users has the major benefit that no significant pieces of software need to be installed on the users machine to improve accessibility. Instead, the keyboard is plugged in through a USB port and the relevant drivers are installed (if necessary).
-
+ 
 ### Big keyboard
-
+ 
 A big keyboard does exactly what it says on the tin. They have larger keys for a bigger target area and more visible letters. This makes it great for users with motor difficulties and vision impairment.
-
+ 
 ![A big keyboard with USB cable](https://res.cloudinary.com/djq5ic5br/image/upload/q_auto/9_bujjen.png)
-
+ 
 ### orbiTouch keyless keyboard
-
-This keyboard is really cool. It's a really interesting and effective overhaul of "keyed" keyboards. The orbiTouch is operated by sliding two large domes around a set of two circles to type individual letters. In the example below, moving the right dome to the left indicates you want to select a 'green' letter, and moving the left dome to the left indicates you are selecting either A, B, D, D or E. E. Each letter has a different corresponding letter. As A is the green letter in this instance, the letter 'A' will be typed.  
-
+ 
+This keyboard is really cool. It's a really interesting and effective overhaul of "keyed" keyboards. The orbiTouch is operated by sliding two large domes around a set of two circles to type individual letters. In the example below, moving the right dome to the left indicates you want to select a 'green' letter, and moving the left dome to the left indicates you are selecting either A, B, D, D or E. E. Each letter has a different corresponding letter. As A is the green letter in this instance, the letter 'A' will be typed. 
+ 
 ![And orbiTouch keyboard being moved to the left to type the letter A](https://res.cloudinary.com/djq5ic5br/image/upload/q_auto/10_pxlh8t.png )
-
-The orbiTouch has obvious accessibility benefits but also does not compromise heavily on effeciency of use unlike some other pieces of hardware in this post. According to orbiTouch, on average, users reach typing speeds of 20-30 wpm after 15 hours of use. 
-
-Here it is in action: 
-
+ 
+The orbiTouch has obvious accessibility benefits but also does not compromise heavily on efficiency of use unlike some other pieces of hardware in this post. According to orbiTouch, on average, users reach typing speeds of 20-30 wpm after 15 hours of use.
+ 
+Here it is in action:
+ 
 ![Gif showing an orbiTouch in operation](https://media.giphy.com/media/Q8gJmrrejnWAvQVf1l/giphy.gif)
-
+ 
 ### Keyguards
-
-A keyguard is a plastic or metal cover that fits a specific keyboard. The user types the keys through the holes in the top of the keyguard. The guard prevents someone with poor motor control from accidentally hitting keys they did not mean to press. It also allows the user to rest their hands on the top of the keyboard without pressing any of the keys. Keyguards do slow down typing speeds, however, as the angle at which the key can be pressed is restricted. 
-
+ 
+A keyguard is a plastic or metal cover that fits a specific keyboard. The user types the keys through the holes in the top of the keyguard. The guard prevents someone with poor motor control from accidentally hitting keys they did not mean to press. It also allows the user to rest their hands on the top of the keyboard without pressing any of the keys. Keyguards do slow down typing speeds, however, as the angle at which the key can be pressed is restricted.
+ 
 ![A keyboard with a keyguard fitted over the top](https://res.cloudinary.com/djq5ic5br/image/upload/q_auto/11_tvpsl1.png)
-
+ 
 ### Slide board
-
+ 
 Slide boards are comprised of a piece of wood, metal or plastic that slides back and forth along a set of tracks over a keyboard, or touch device. Slide boards allow the user to rest their hand and incorporate forearm movement into the fine motor operation of their device. This is great for individuals with unsteady hand or arm control, and limited dexterity. Slide boards are also a simple design and can be constructed pretty easily as a DIY project.
-
+ 
 ![A user with a slide board fitted over the top of an iPad](https://res.cloudinary.com/djq5ic5br/image/upload/q_auto/12_irjl4t.png)
-
  
 ## 5. Mice (Mouses? Meece?!)
-
+ 
 Much like keyboards, accessible mice have the benefit of working out of the box with most laptops and PCs.
-
+ 
 ### BigTrack trackball
-
-The BigTrack trackball mouse has an oversized trackball which is moved left, right, back and forth with a users hand, arm or foot. It requires less fine motor skills to be operated and has large left and right click buttons.
-
+ 
+The BigTrack trackball mouse has an oversized trackball which is moved left, right, back and forth with a user's hand, arm or foot. It requires less fine motor skills to be operated and has large left and right click buttons.
+ 
 ![A bigtrack trackball](https://res.cloudinary.com/djq5ic5br/image/upload/q_auto/13_wfn00d.png)
-
+ 
 ### Thumb mouse
-
-A thumb mouse is an alternative mouse with a sensitive analogue joystick. It allows for control of the users device with minimal movement of the thumb or fingers. They can also have additional buttons that can be personalised to meet a users specific needs. 
-
+ 
+A thumb mouse is an alternative mouse with a sensitive analogue joystick. It allows for control of the users device with minimal movement of the thumb or fingers. They can also have additional buttons that can be personalised to meet a users specific needs.
+ 
 ![A thumb mouse attached to a users hand](https://res.cloudinary.com/djq5ic5br/image/upload/q_auto/14_ygxwdg.png)
-
+ 
 ## Conclusion: Designing for assistive tech
-
+ 
 When we talk about accessibility within the context of web development oftentimes the conversation is overarchingly centered around screen reader accessibility. Not to minimise the importance of screen reader accessibility, there's another faction of our users who also need to be on our minds when we're building accessible interfaces. Many of them use the hardware listed above, as well as other accessible input devices. As such, some points we might want to consider to build truly ability agnostic interfaces are:
-
+ 
 - Large touch points - are our buttons large enough or is there enough padding around them if a user has limited accuracy when clicking or interacting with the interface?
-- Fewest possible interactions to complete a task - how can we reduce the number of input events required to complete the task at hand? 
+- Fewest possible interactions to complete a task - how can we reduce the number of input events required to complete the task at hand?
 - Efficient use of form elements - can this form input use a radio button, checkbox or dropdown instead of a text input? If we need a text input, can we incorporate an autocomplete feature?
-- Symantic HTML for proper focus/tabbing - do all the necessary elements on the page have a tabbable index?
+- Semantic HTML for proper focus/tabbing - do all the necessary elements on the page have a tabbable index?
+ 
+I think the most important point to take away from this is that assistive technology, while it's great for unusable technology usable, can be cumbersome, intuitive and efficient. And as developers we can improve the experience a user of assistive hardware has on our site by asking some pretty simple questions of ourselves, our designers and UX engineers.
 
-I think the most important point to take away from this is that assistive technology, while it's great for unusable technology useable, can be cumbersome, unintuitive and innefficient. And as developers we can improve the experience a user of assistive hardware has on our site by asking some pretty simple questions of ourselves, our designers and UX engineers.
