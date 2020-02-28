@@ -21,7 +21,7 @@ Head tracking requires a user to wear a reflective dot on their forehead or glas
 
 Gaze tracking (or gaze interaction) works in a similar manner but instead of the user wearing a reflective dot on their head, a camera captures the movement of the users eyes. This works in conjunction with an infrared light to illuminate the eyes while a camera captures the reflection off the retina and the cornea (referred to as “red-eye” and “the glint” respectively). These points are used to build a 3D model of the users eyes to determine: where the users eyes are looking (the gaze point) and where the users eyes are in space relative to the computer (track box). Similar to head tracking technology, gaze tracking is lightweight and powerful for people with restricted body movement. Gaze tracking is even more accessible in that it can be used by individuals who are unable to move their head or neck. Gaze tracking also run into compatibility issues, and is expensive technology.
  
-![A PC user has their gaze tracking device mounted at the base of their monitor to track their eye movements](https://res.cloudinary.com/djq5ic5br/image/upload/q_auto/2_qs0fep.png)
+![A PC user has their gaze tracking device mounted at the base of their monitor to track their eye movements](https://res.cloudinary.com/djq5ic5br/image/upload/q_auto/22_iuoduf.jpg)
 
 ## 2. Head/Chin/Mouth Pointers
 
