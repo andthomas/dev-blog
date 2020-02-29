@@ -1,6 +1,6 @@
 ---
 title: 'Assistive Tech - Input Hardware 🕹'
-description: 'Assistive input technology enables people who cannot use conventional keyboards/mice/trackpads to use laptops, desktops and other devices. In this post, I take a look at the the variety of devices that are on the market and how they work.'
+description: 'Assistive input hardware enables people who cannot use conventional keyboards/mice/trackpads to use laptops, desktops and other devices. In this post, I take a look at the the variety of devices that are on the market and how they work.'
 date: 2020-02-28
 categories: ['tech', 'hardware', 'accessibility']
 ogImage: ../og-images/andy-og-image.png
@@ -11,7 +11,7 @@ This is where assistive technology comes into play.
 
 Going into this post I didn't know much about assistive technology, but was keen to learn more about how it suits the needs of its users, and how the software which interprets these devices operates. Quickly though, I found out there is an abundance of assistive technology, each designed to suit the very specific needs of it's users. So in the interests of brevity, this post is only about assistive input hardware.
 
-## 1. Head Tracking/Gaze Tracking
+## 1. Head Tracking/ Gaze Tracking
 
 Chances are if you're reading this blog you've probably played with a Wii. Assistive tracking technology works in a similar fashion, only instead of a remote sending motion data to an infrared sensor, a camera tracks a point (or points) on a user which is translated into a position coordinate on a screen.
 
@@ -123,10 +123,10 @@ A thumb mouse is an alternative mouse with a sensitive analogue joystick. It all
  
 When we talk about accessibility within the context of web development oftentimes the conversation is overarchingly centered around screen reader accessibility. Not to minimise the importance of screen reader accessibility, there's another faction of our users who also need to be on our minds when we're building accessible interfaces. Many of them use hardware listed above, as well as other accessible input devices. So, some points we might want to consider to build truly ability agnostic interfaces are:
  
-- Large touch points - are our buttons large enough or is there enough padding around them if a user has limited accuracy when clicking or interacting with the interface?
+- Large target points - are our buttons large enough or is there enough padding around them if a user has limited accuracy when clicking or interacting with the interface? Should text links be bigger? Are form elements large enough?
 - Minimising the number of interactions to complete a task - how can we reduce the number of input events required to complete the task at hand?
-- Efficient use of form elements - can this form input use a radio button, checkbox or dropdown instead of a text input? If we need a text input, can we incorporate an autocomplete feature?
+- Effective use of form elements - can this form input use a radio button, checkbox or dropdown instead of a text input? If we need a text input, can we incorporate an autocomplete feature?
 - Semantic HTML for proper focus/tabbing - are all necessary elements on the page tabbable? Does their index order make sense?
  
-I think the most important point to take away from this is that assistive technology (while it's great for making unusable technology usable) can be cumbersome, unintuitive and inefficient. And as developers we can improve the experience a user of assistive hardware has on our site by asking some pretty simple questions of ourselves, our designers and UX engineers.
+I think the most important point to take away from this is that assistive technology (while it's great for making unusable technology usable) can be cumbersome and inefficient. And as developers we can improve the experience a user of assistive hardware has on our site by asking some pretty simple questions of ourselves, our designers and UX engineers.
 
