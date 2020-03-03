@@ -121,7 +121,7 @@ A thumb mouse is an alternative mouse with a sensitive analogue joystick. It all
  
 ## Designing for assistive hardware
  
-When we talk about accessibility within the context of web development oftentimes the conversation is overarchingly centered around screen reader accessibility. Not to minimise the importance of screen reader accessibility, there's another faction of our users who also need to be on our minds when we're building accessible interfaces. Many of them use hardware listed above, as well as other accessible input devices. So, some points we might want to consider to build truly ability agnostic interfaces are:
+When we talk about accessibility within the context of web development oftentimes the conversation is centered around screen reader accessibility. I don't want to minimise the importance of screen reader accessibility, but there are other factions of our users who also need to be on our minds when we're building accessible interfaces. Many of them use hardware listed above, as well as other accessible input devices. So, some points we might want to consider to build truly ability agnostic interfaces are:
  
 - Large target points - are our buttons large enough or is there enough padding around them if a user has limited accuracy when clicking or interacting with the interface? Should text links be bigger? Are form elements large enough?
 - Minimising the number of interactions to complete a task - how can we reduce the number of input events required to complete the task at hand?
