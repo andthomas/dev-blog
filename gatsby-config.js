@@ -14,6 +14,12 @@ module.exports = {
 	plugins: [
 		`gatsby-plugin-emotion`,
 		{
+			resolve: `gatsby-plugin-google-analytics`,
+			options: {
+				trackingId: 'UA-154946003-1',
+			},
+		},
+		{
 			resolve: `gatsby-source-filesystem`,
 			options: {
 				path: `${__dirname}/content/blog`,
@@ -83,15 +89,6 @@ module.exports = {
 			resolve: 'gatsby-plugin-webpack-bundle-analyser-v2',
 			options: {
 				devMode: false,
-			},
-		},
-		{
-			resolve: `gatsby-plugin-google-analytics`,
-			options: {
-				trackingId: 'UA-54730700-3',
-				head: false,
-				anonymize: true,
-				respectDNT: true,
 			},
 		},
 		'gatsby-plugin-catch-links',
