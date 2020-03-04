@@ -46,6 +46,7 @@ const Sidebar = () => {
 				alignSelf: 'start',
 				position: 'fixed',
 				width: '30%',
+				maxWidth: '500px',
 				[mediaMax.large]: {
 					position: 'relative',
 					padding: `16px 0 0 0`,
