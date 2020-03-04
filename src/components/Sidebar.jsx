@@ -44,9 +44,13 @@ const Sidebar = () => {
 				margin: '24px 0',
 				padding: '16px 64px',
 				alignSelf: 'start',
+				position: 'fixed',
+				width: '30%',
 				[mediaMax.large]: {
+					position: 'relative',
 					padding: `16px 0 0 0`,
 					margin: '24px 32px',
+					width: 'auto',
 				},
 			}}
 		>

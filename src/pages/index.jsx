@@ -16,14 +16,15 @@ const BlogIndex = ({ data, location }) => {
 		<ThemeProvider>
 			<section
 				css={{
-					display: 'grid',
 					gridTemplateColumns: 'auto 1fr',
 					alignContent: 'start',
 					height: '100%',
 					minHeight: '100vh',
 					maxWidth: 1200,
 					margin: '0 auto',
+					display: 'block',
 					[mediaMax.large]: {
+						display: 'grid',
 						gridTemplateColumns: 'auto',
 						justifyItems: 'center',
 					},

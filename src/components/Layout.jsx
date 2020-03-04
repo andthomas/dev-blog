@@ -47,6 +47,11 @@ const Layout = ({ location, children }) => {
 					marginLeft: 'auto',
 					marginRight: 'auto',
 				},
+				[mediaMax.large]: {
+					width: 'auto',
+				},
+				float: location.pathname === rootPath ? 'right' : 'none',
+				width: location.pathname === rootPath ? '68%' : 'auto',
 				maxWidth: rhythm(24),
 				padding: `${rhythm(1.5)} ${rhythm(3 / 4)}`,
 				a: {
