@@ -80,7 +80,7 @@ const Sidebar = () => {
 						},
 					}}
 				/>
-				<h3>{author}</h3>
+				<h3>> Andy's Blog</h3>
 			</div>
 			<p className="muted" css={{ color: muted }}>
 				{bio}
