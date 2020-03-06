@@ -1,25 +1,25 @@
 ---
-title: 'Assistive Tech - Input Hardware 🕹'
-description: 'Assistive input hardware enables people who cannot use conventional keyboards/mice/trackpads to use laptops, desktops and other devices. In this post, I take a look at the the variety of devices that are on the market and how they work.'
+title: 'Assistive Tech - Hardware 🕹'
+description: 'Assistive hardware enables people who cannot use conventional keyboards/mice/trackpads to use laptops, desktops and other devices. In this post, I take a look at the the variety of devices that are on the market and how they work.'
 date: 2020-02-28
 categories: ['tech', 'hardware', 'accessibility']
 ogImage: ../og-images/andy-og-image.png
 ---
-Not everyone is able to use a computer with a conventional keyboard and mouse. Sometimes, our bodies just don't work in the way that an out of the box laptop, desktop, tablet or phone are designed to be used.
+Sometimes our bodies don't work in the way that an out of the box laptop, desktop, tablet or phone are designed to be used. This is where assistive hardware comes into play.
 
-This is where assistive technology comes into play.
+Assistive hardware adapts to the needs of its users with the intention of improving the accessibility of a given piece of technology. The hardware can either interact with the underlying device digitally, provide a better means to physically interact with the device or both.
 
-Going into this post I didn't know much about assistive technology, but was keen to learn more about how it suits the needs of its users, and how the software which interprets these devices operates. Quickly though, I found out there is an abundance of assistive technology, each designed to suit the very specific needs of it's users. So in the interests of brevity, this post is only about assistive input hardware.
+Let's jump in.
 
 ## 1. Head Tracking/ Gaze Tracking
 
-Chances are if you're reading this blog you've probably played with a Wii. Assistive tracking technology works in a similar fashion, only instead of a remote sending motion data to an infrared sensor, a camera tracks a point (or points) on a user which is translated into a position coordinate on a screen.
+Chances are if you're reading this blog you've probably played with a Wii. Assistive tracking technology works in a similar way, only instead of a remote sending motion data to an infrared sensor, a camera tracks a point (or points) on a user which is translated into a position coordinate on a screen.
 
 Head tracking requires a user to wear a reflective dot on their forehead or glasses and for a tracking camera to be mounted on their device facing towards them. Then, through a combination of their own software and existing mouse drivers the tracker enables the user to control the mouse by moving their head. Head tracking technology is great for people with restricted motion and doesn't require the user to wear any bulky or uncomfortable devices. It is, however, pretty expensive stuff and may not always be compatible with the users device or operating system.
  
 ![A head tracking device user wearing a reflective dot in front of their tracking camera](https://res.cloudinary.com/djq5ic5br/image/upload/q_auto/1_uau3qg.png)
 
-Gaze tracking (or gaze interaction) works in a similar manner but instead of the user wearing a reflective dot on their head, a camera captures the movement of the users eyes. This works in conjunction with an infrared light to illuminate the eyes while a camera captures the reflection off the retina and the cornea (referred to as “red-eye” and “the glint” respectively). These points are used to build a 3D model of the users eyes to determine: where the users eyes are looking (the gaze point) and where the users eyes are in space relative to the computer (track box). Similar to head tracking technology, gaze tracking is lightweight and powerful for people with restricted body movement. Gaze tracking is even more accessible in that it can be used by individuals who are unable to move their head or neck. Gaze tracking also run into compatibility issues, and is expensive technology.
+Gaze tracking (or gaze interaction) works in a similar manner but instead of the user wearing a reflective dot on their head, a camera captures the movement of the users eyes. This works in conjunction with an infrared light to illuminate the eyes while a camera captures the reflection off the retina and the cornea (referred to as “red-eye” and “the glint” respectively). These points are used to build a 3D model of the users eyes to determine where the users eyes are looking (the gaze point) and where the users eyes are in space relative to the computer (track box). Similar to head tracking technology, gaze tracking is lightweight and powerful for people with restricted body movement. Gaze tracking is even more accessible that head tracking in that it can be used by individuals who are unable to move their head or neck. However, gaze tracking can also run into compatibility issues, and is expensive technology.
  
 ![A PC user has their gaze tracking device mounted at the base of their monitor to track their eye movements](https://res.cloudinary.com/djq5ic5br/image/upload/q_auto/22_iuoduf.jpg)
 
@@ -35,7 +35,7 @@ A benefit of the head pointer as opposed to head-tracking devices is that they a
 
 ## 3. Single Switch Entry Devices (Adaptive Switches)
  
-Single switch entry devices are pieces of hardware which take a signal from a switch to control an on screen keyboard or other assistive software. In much the same way that the way the left click of a mouse works, the switch enables the user to 'click' an option on the screen while a cursor moves across all available options or focus points on a screen.
+Single switch entry devices are pieces of hardware which take a signal from a switch to control an on screen keyboard or other assistive software. In much the same way that the way the left click of a mouse works, the switch enables the user to 'click' an option on the screen while a cursor automatically moves across all available options or focus points on a screen.
  
 There are a multitude of single switch entry devices, each designed to suit the specific needs of their user. A handful of them are:
  
@@ -47,7 +47,7 @@ Jelly bean switches provide users with a target area of about 5cm in circumferen
  
 ### Sip and Puff
  
-A sip and puff is a switch which the user holds in their mouth (like a straw). A gentle sip or puff of air into a pneumatic tube sends air flowing one of two directions through a sensor. The sensor detects the flow of air and sends an electrical signal to the computer or device. Sip and puff devices are great for users with very limited mobility and are less physically taxing than other input devices. Sip and Puff's retail for around $300, making them one of the more expensive switch entry devices.
+A sip and puff is a switch which the user holds in their mouth (like a straw). A gentle sip or puff of air into a pneumatic tube sends air flowing one of two directions through a sensor. The sensor detects the flow of air and sends a signal to the computer or device. Sip and puff devices are great for users with very limited mobility and are less physically taxing than other input devices. Sip and Puff's retail for around $300, making them one of the more expensive switch entry devices.
  
 ![A user with a sip and puff held in the side of his mouth](https://res.cloudinary.com/djq5ic5br/image/upload/q_auto/5_cybl3c.png)
  
@@ -93,13 +93,13 @@ Here it is in action:
  
 ### Keyguards
  
-A keyguard is a plastic or metal cover that fits a specific keyboard. The user types the keys through the holes in the top of the keyguard. The guard prevents someone with limited motor control from accidentally hitting keys they did not mean to press. It also allows the user to rest their hands on the top of the keyboard without pressing any of the keys. Keyguards do slow down typing speeds as the angle at which the key can be pressed is restricted.
+A keyguard is a plastic or metal cover that fits a specific keyboard. The user presses the keys through the holes in the top of the keyguard. The guard prevents someone with limited motor control from accidentally hitting keys they did not mean to press. It also allows the user to rest their hands on the top of the keyboard without pressing any of the keys. Keyguards do slow down typing speeds as the angle at which the key can be pressed is restricted.
  
 ![A keyboard with a keyguard fitted over the top](https://res.cloudinary.com/djq5ic5br/image/upload/q_auto/11_tvpsl1.png)
  
 ### Slide board
  
-Slide boards are comprised of a piece of wood, metal or plastic that slides back and forth along a set of tracks over a keyboard, or touch device. Slide boards allow the user to rest their hand and incorporate forearm movement into the fine motor operation of their device. This is great for individuals with unsteady hand or arm control, and limited dexterity. Slide boards are also a simple design and can be constructed pretty easily as a DIY project.
+Slide boards are comprised of a piece of wood, metal or plastic that slides back and forth along a set of tracks over a keyboard, or touch device. Slide boards allow the user to rest their hand and leverage their forearm movement for the fine motor operation of their device. This is great for individuals with unsteady hand or arm control, and limited dexterity. Slide boards are also a simple design and can be constructed pretty easily as a DIY project.
  
 ![A user with a slide board fitted over the top of an iPad](https://res.cloudinary.com/djq5ic5br/image/upload/q_auto/12_irjl4t.png)
  
@@ -124,7 +124,7 @@ A thumb mouse is an alternative mouse with a sensitive analogue joystick. It all
 When we talk about accessibility within the context of web development oftentimes the conversation is centered around screen reader accessibility. I don't want to minimise the importance of screen reader accessibility, but there are other factions of our users who also need to be on our minds when we're building accessible interfaces. Many of them use hardware listed above, as well as other accessible input devices. So, some points we might want to consider to build truly ability agnostic interfaces are:
  
 - Large target points - are our buttons large enough or is there enough padding around them if a user has limited accuracy when clicking or interacting with the interface? Should text links be bigger? Are form elements large enough?
-- Minimising the number of interactions to complete a task - how can we reduce the number of input events required to complete the task at hand?
+- Minimising the number of interactions to complete a task - how can we reduce the number of input or click events required to complete the task at hand?
 - Effective use of form elements - can this form input use a radio button, checkbox or dropdown instead of a text input? If we need a text input, can we incorporate an autocomplete feature?
 - Semantic HTML for proper focus/tabbing - are all necessary elements on the page tabbable? Does their index order make sense?
  
