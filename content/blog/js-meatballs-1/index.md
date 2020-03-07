@@ -6,7 +6,7 @@ categories: ['web', 'JavaScript']
 ogImage: ../og-images/meatballs.png
 ---
 
-Welcome to JavaScript Meatballs!! A collection of small but meaty posts on the foundations of JavaScript.
+Welcome to JavaScript Meatballs! A collection of small but meaty posts on the foundations of JavaScript.
 
 I've created this series of posts to bring together some of the more important concepts when developing a foundational knowledge of JavaScript. It is not an exhaustive guide but is reasonably detailed. 
 
@@ -23,7 +23,7 @@ The coloured area is a block of code.
 
 The `//` is how we add comments to our code in JavaScript. Comments are not run with the rest of the code and only act as notes to ourselves and other people that read our code. 
 
-`console.log()` is an in-built JavaScript function that prints the return value of the code to the JavaScript console. A console is an environment/program that can run JavaScript. You can see a console either here on [JS Bin](https://jsbin.com/?js,console) or in the developer tools of your browser. Have a play with the console and try using `console.log()` yourself. 
+`console.log()` is an in-built JavaScript function that prints the return value of the code to the JavaScript console. A console is an environment/program that can run JavaScript. You can see a console either here on [JS Bin](https://jsbin.com/?js,console) or in the developer tools of your browser.
 
 The `>` sign is the return value of a function. When we run a function in JavaScript, it will always return some data/value/function for us.
 
@@ -31,10 +31,8 @@ We dont need to worry about the other stuff that's there right now.
 
 Got it? Great!
 
-Let's dig in.
-
 ## What is JavaScript?
-JavaScript is a programming language that can run both in a browser and (more recently) on a server. It was written to run in the Netscape browser in 1995. JavaScript can update and change our HTML and CSS, calculate and manipulate data and request and receive data from servers or other websites. 
+JavaScript is a programming language that can run both in a browser and (more recently) on a server. It was written for the Netscape browser in 1995. JavaScript can update and change our HTML and CSS, calculate and manipulate data and request and receive data from servers or other websites. 
 
 The latest version of JavaScript (ES6) has brought some really cool enhancements to the language, some of which we'll look into over these posts.
 
@@ -83,4 +81,3 @@ Symbols are new in the latest version of JavaScript (ES6). A symbol is a unique 
 Sounds confusing? Well it bloody is and it's a fairly advanced feature which we don't need to worry about right now.
 
     Symbol(uniqueNewYork)
-

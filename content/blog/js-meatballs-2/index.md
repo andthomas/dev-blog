@@ -14,7 +14,7 @@ A variable or constant consists of an identifier (to the left of the equals sign
     var otherNewVar; // Initialised with an undefined value
     
 ### Let vs. Const. vs. Var
-Prior to the latest version of JavaSctipt (ES6), we declared variables with the `var` keyword. With `var` we can set a variable to have some value then either manipulate it's value or assign it a new value.
+Prior to the latest version of JavaSctipt (ES6), we declared variables with the `var` keyword. With `var` we can set a variable to have some value and then either manipulate it's value or assign it a new value.
 
     var greeting = "Hey there bucko";
     var greeting = "What's up dawg?";
@@ -33,7 +33,7 @@ For now, we can safely assume `let` is the same as `var`. There is a slight diff
 JavaScript operators are used to assign values, compare values, perform arithmetic operations, and more.
 
 ### Assignment
-As we saw before, we can assign a variable a value by using the `=` operator. This is by far the most commonly used operator. However, there are a number of assignment operators we can use in JavaScript. Two more of these operators are addition assignment `+=` and subtraction assignment `-=` which compound values while assigning them.
+As we saw before, we can assign a value to a variable or constant by using the `=` operator. This is by far the most commonly used operator. However, there are a number of assignment operators we can use in JavaScript. Two more of these operators are addition assignment `+=` and subtraction assignment `-=` which compound values while assigning them.
 
     let x = 3;
     x += 10;

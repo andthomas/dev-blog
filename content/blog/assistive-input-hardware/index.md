@@ -1,13 +1,13 @@
 ---
-title: 'Assistive Tech - Hardware 🕹'
+title: 'Assistive Tech: Hardware 🕹'
 description: 'Assistive hardware enables people who cannot use conventional keyboards/mice/trackpads to use laptops, desktops and other devices. In this post, I take a look at the the variety of devices that are on the market and how they work.'
 date: 2020-02-28
 categories: ['tech', 'hardware', 'accessibility']
 ogImage: ../og-images/andy-og-image.png
 ---
-Sometimes our bodies don't work in the way that an out of the box laptop, desktop, tablet or phone are designed to be used. This is where assistive hardware comes into play.
+Sometimes our bodies don't work in the way that an out of the box laptop, desktop, tablet or phone is designed to be used. This is where assistive hardware comes into play.
 
-Assistive hardware adapts to the needs of its users with the intention of improving the accessibility of a given piece of technology. The hardware can either interact with the underlying device digitally, provide a better means to physically interact with the device or both.
+Assistive hardware adapts to the needs of its users with the intention of improving the accessibility of a given piece of technology. The hardware can either interact with the underlying device electronically, provide a better means to physically interact with the device or both.
 
 Let's jump in.
 

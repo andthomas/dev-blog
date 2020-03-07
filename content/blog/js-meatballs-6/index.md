@@ -1,5 +1,5 @@
 ---
-title: 'JS Meatballs Pt. 6: Truthy, Falsey and Type Coercion 😇😈'
+title: 'JS Meatballs Pt. 6: Truthy, Falsey and Type Coercion 😇'
 description: 'The whole truth(y)... and falsey... and type coercion. Examining the inherent boolean value each value in JavaScript has.'
 date: 2019-12-06
 categories: ['web', 'meatballs', 'JavaScript']
