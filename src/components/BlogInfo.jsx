@@ -13,7 +13,7 @@ const BlogInfo = ({ timeToRead, date }) => {
 			<small css={{ marginRight: 4 }}>
 				{date} • {timeToRead} min read
 			</small>
-			{Array.from({ length: timeToRead / 6 + 1 }).map((item, index) => (
+			{Array.from({ length: timeToRead / 7 }).map((item, index) => (
 				<FiCoffee key={index} css={{ marginRight: 4 }} />
 			))}
 		</div>
