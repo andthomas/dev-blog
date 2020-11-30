@@ -1,7 +1,7 @@
 ---
 title: 'Vue 3 in 3 Minutes'
 description: 'There are a bunch of super exciting changes to Vue in v3. In a small challenge to myself and to save you time I have attempted to distil much of the new goodness into a 3 minute blog post.'
-date: 2020-06-05
+date: 2020-10-05
 categories: ['tech', 'vue', 'front-end']
 ogImage: ../og-images/andy-og-image.png
 ---
