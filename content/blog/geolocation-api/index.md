@@ -6,8 +6,6 @@ categories: ['tech', 'location', 'html', 'mac']
 ogImage: ../og-images/andy-og-image.png
 ---
 
-The technology/concept I chose to look into was geofencing and the HTML5 Geolocation API. 
-
 Geofencing is "the use of GPS or RFID technology to create a virtual geographic boundary, enabling software to trigger a response when a mobile device enters or leaves a particular area." (thanks Wikipedia).
 
 There are several applications for this. One that is used by Uber is to manage pickups from LAX. As Uber is prohibited from using LAX's private hire car/taxi pick up and drop off zone, Uber has created a geofenced area nearby (see below) where drivers (once they are within the area) can wait for a fare from LAX, then pick up individuals from the regular pick up area at the airport. 
