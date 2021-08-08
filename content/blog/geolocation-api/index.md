@@ -1,5 +1,5 @@
 ---
-title: "HTML5 Geolocation, Macs and a sober realisation"
+title: "HTML5 Geolocation, Macs and an interesting realisation"
 description: 'In this post I quickly take a look at the HTML5 Geolocation API, and how my MacBook is calculating my location.'
 date: 2021-02-21
 categories: ['tech', 'location', 'html', 'mac']
