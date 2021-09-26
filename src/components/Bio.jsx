@@ -21,7 +21,6 @@ const Bio = () => {
 				siteMetadata {
 					author
 					social {
-						twitter
 						github
 						linkedin
 					}
@@ -69,13 +68,12 @@ const Bio = () => {
 			/>
 			<div css={{ fontSize: 16, color: secondary }}>
 				<p>
-					Thanks for dropping by. I’m a <a href={social.github}>JavaScript Developer</a> from
-					Sydney, Australia. I hope what's written here has either taught you something, given you
-					some inspiration or provided you with a bit of entertainment.
+					Thanks for dropping by. I’m a <a href={social.github}>web developer</a> from Sydney,
+					Australia. I hope what's written here has either taught you something, given you some
+					inspiration or provided you with a bit of entertainment.
 				</p>
 				<p>
-					You can follow me on <a href={social.twitter}>twitter</a> (though I don't tweet much) or
-					connect with me on <a href={social.linkedin}>LinkedIn</a>.
+					Feel free to connect with me on <a href={social.linkedin}>LinkedIn</a>.
 				</p>
 			</div>
 		</div>

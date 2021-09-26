@@ -1,7 +1,7 @@
 import React, { useContext } from 'react';
 import { graphql, useStaticQuery } from 'gatsby';
 import Image from 'gatsby-image';
-import { FiTwitter, FiGithub, FiLinkedin } from 'react-icons/fi';
+import { FiGithub, FiLinkedin } from 'react-icons/fi';
 import { mediaMax } from '@divyanshu013/media';
 
 import Button from './Button';
@@ -23,7 +23,6 @@ const SIDEBAR_QUERY = graphql`
 				author
 				bio
 				social {
-					twitter
 					github
 					linkedin
 				}
@@ -94,16 +93,6 @@ const Sidebar = () => {
 					justifyContent: 'start',
 				}}
 			>
-				<Button
-					aria-label="Link to my Twitter"
-					as="a"
-					circular
-					href={social.twitter}
-					target="_blank"
-					rel="noopener noreferrer"
-				>
-					<FiTwitter />
-				</Button>
 				<Button
 					aria-label="Link to my GitHub"
 					as="a"
