@@ -1,6 +1,6 @@
 ---
 title: 'Infographic: The many flavours of test doubles 🍦'
-description: 'Test doubles like stubs, mocks and fakes allow us to immitate or observe code how the code we are testing behaves. However, the terminology is pretty confusing and is often used interchangeably.'
+description: 'Test doubles like stubs, mocks and fakes allow us to immitate or observe how the code we are testing behaves. However terminology surrounding doubles can be confusing and terms are often used interchangeably.'
 date: 2021-09-27
 categories: ['tech', 'testing', 'doubles', 'stubs', 'dummies', 'mocks', 'fakes']
 ogImage: ../og-images/andy-og-image.png
