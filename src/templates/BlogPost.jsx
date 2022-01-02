@@ -120,7 +120,7 @@ export const pageQuery = graphql`
 				description
 				ogImage {
 					childImageSharp {
-						fixed(height: 630, width: 1200) {
+						fixed(height: 630, width: 900) {
 							src
 						}
 					}

@@ -68,8 +68,8 @@ const Bio = () => {
 			/>
 			<div css={{ fontSize: 16, color: secondary }}>
 				<p>
-					Thanks for dropping by. I’m a <a href={social.github}>web developer</a> from Sydney,
-					Australia. I hope what's written here has either taught you something, given you some
+					Thanks for dropping by. Iʼm a <a href={social.github}>web developer</a> from Sydney,
+					Australia. I hope whatʼs written here has either taught you something, given you some
 					inspiration or provided you with a bit of entertainment.
 				</p>
 				<p>
