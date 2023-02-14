@@ -1,6 +1,6 @@
 ---
-title: 'The three types of PR reviewers ✔'
-description: 'In my opinion, PR reviewers broadly fall into three camps. Here we'll take a quick look at each'
+title: 'The three types of PR reviewers ⚡️'
+description: 'In my opinion, PR reviewers broadly fall into three camps. Which one are you?'
 date: 2023-02-10
 categories: ['pr', 'mr', 'reviews']
 ogImage: ../og-images/andy-og-image.png
@@ -16,7 +16,7 @@ These reviewers aren’t big readers and sometimes its not entirely their fault.
 
 ## “All fart no poo”
 
-It takes approximately 65,000 cubic feet of hot air to float a hot air balloon. A similar amount is often produced by this crowd when reviewing your 20 line PR. These reviewers can sometimes be new to the company (and don’t yet have the confidence in their domain knowledge to click approve) or they’ve just never really gotten around to reading he codebase. They are by far the most annoying reviewer as their innocuous comments will leave your PR hanging around like a bad smell for days. Comments are often subjective or could be answered by reading some of the context or even running the code. The cherry on all of this is once all of the comments are sufficiently answered they vanish into thin air, leaving you completely hanging on that approval.
+It takes approximately 65,000 cubic feet of hot air to float a hot air balloon. A similar amount is often produced by this crowd when reviewing your 20 line PR. These reviewers often don’t yet have the confidence in their domain knowledge to click approve, or they’ve just never really gotten around to reading he codebase. Their comments will leave your PR hanging around like a bad smell for days. Comments are often subjective or could be answered by reading some of the context or even running the code. The cherry on all of this is once all of the comments are sufficiently answered they vanish into thin air, leaving you completely hanging on that approval.
 
 But fear not, because this is when you reach out to:
 
