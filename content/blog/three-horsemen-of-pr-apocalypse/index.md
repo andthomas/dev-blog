@@ -29,6 +29,6 @@ These reviews (often given at 4:30 on a Friday) are defined by a single vague co
 This is another style of review that only gives the illusion of progress. The scope of a PR is important to be mindful of in a review. If it’s not in scope, either ensure that your comment marked as “non-blocking”, or strike up a conversation about the issue elsewhere. If it’s 5pm and you’re typing out a comment for the sake of it, log out and head on home. 
 
 Finally, some thoughts on what makes a great review:
-1. Clear communication (what is actionable, what matters, what is a personal preference)
-2. Timely responses (set up good quality notifications for when changes to the PR have been made. Slack > Email)
-3. Run the code
+1. Clear communication (What is actionable? What matters? What is a personal preference?)
+2. Timely responses (Set up good quality notifications for when changes to the PR have been made. Slack > Email)
+3. Run the code.
