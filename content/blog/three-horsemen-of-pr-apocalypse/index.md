@@ -1,5 +1,5 @@
 ---
-title: "The ~~four~~ three horsemen of the of PR apocalypse 🐎"
+title: "The f̶o̶u̶r̶ three horsemen of the of PR apocalypse 🐎"
 description: 'In this post I talk about the three kinds of bad PR reviews and what can be done to combat them'
 date: 2023-01-10
 categories: ['pr', 'reviews']
