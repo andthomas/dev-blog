@@ -10,9 +10,7 @@ const BlogInfo = ({ timeToRead, date }) => {
 	const { muted } = getTheme(theme);
 	return (
 		<div className="muted" css={{ display: 'flex', alignItems: 'center', color: muted }}>
-			<small css={{ marginRight: 4 }}>
-				{date} • {timeToRead} min read
-			</small>
+			<small css={{ marginRight: 4 }}>{timeToRead} min read</small>
 			{Array.from({ length: timeToRead / 2 }).map((item, index) => (
 				<FiCoffee key={index} css={{ marginRight: 4 }} />
 			))}
