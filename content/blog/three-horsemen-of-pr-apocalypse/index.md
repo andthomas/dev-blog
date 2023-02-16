@@ -8,7 +8,7 @@ ogImage: ../og-images/andy-og-image.png
 
 Over my time working in web development I’ve had a number of PR reviews (or MR reviews if you’re a complete psychopath), some of which were brilliant and others not so good. This post focuses on the latter of that group. The quality of review not only depends on the individual but also on whether that individual is burnt out, high on caffeine, just back from holiday, new to the company etc. 
 
-We’ve all given at least one of these reviews in our careers, myself included. But our abilities as a technical peer aren’t defined by a single review.
+We’ve all given at least one of these reviews in our careers, myself included. But our abilities as an individual contributor aren’t defined by a single review.
 
 ## “Sign and Recline”
 
