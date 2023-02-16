@@ -37,13 +37,13 @@ const BlogIndex = ({ data, location }) => {
 						const title = node.frontmatter.title || node.fields.slug;
 						return (
 							<div key={node.fields.slug}>
-								<BlogInfo timeToRead={node.timeToRead} date={node.frontmatter.date} />
 								<h3
 									css={{
 										marginTop: rhythm(1 / 4),
 										marginBottom: rhythm(0.5),
 									}}
 								>
+									<BlogInfo timeToRead={node.timeToRead} date={node.frontmatter.date} />
 									<Link style={{ boxShadow: `none` }} to={node.fields.slug}>
 										{title}
 									</Link>
