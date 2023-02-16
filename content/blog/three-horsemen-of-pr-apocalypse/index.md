@@ -1,6 +1,6 @@
 ---
 title: "The f̶o̶u̶r̶ three horsemen of the of PR apocalypse 🐎"
-description: 'In this post I talk about a handful of bad PR reviews I've seen over the years and what can be done to combat them.'
+description: "In this post I talk about a handful of bad PR reviews I've seen over the years and what can be done to combat them."
 date: 2023-01-10
 categories: ['pr', 'reviews']
 ogImage: ../og-images/andy-og-image.png
