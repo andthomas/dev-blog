@@ -6,7 +6,7 @@ categories: ['pr', 'reviews']
 ogImage: ../og-images/andy-og-image.png
 ---
 
-Over my time working in web development I’ve had a number of PR reviews (or MR reviews if you’re a complete psychopath) some of which were brilliant and others not as good. This post focuses on the latter of that group. The quality of review does not only depend on the individual but also on whether that individual is burnt out, buzzed on caffeine, just back from holiday, new to the company etc. 
+Over my time working in web development I’ve had a number of PR reviews (or MR reviews if you’re a complete psychopath) some of which were brilliant and others not as good. This post focuses on the latter of that group. The quality of review does not only depend on the skills of the individual but also on whether that individual is burnt out, buzzed on caffeine, just back from holiday, new to the company etc. 
 
 We’ve all given at least one of these reviews in our careers, myself included. We all have our off-days and they serve as a great opportunity to learn from and have a chuckle at.
 
