@@ -35,9 +35,10 @@ const BlogPost = ({ data, pageContext, location }) => {
 									marginTop: rhythm(1 / 4),
 									marginBottom: rhythm(1),
 								}}
-							>
-								{post.frontmatter.title}
-							</h1>
+								dangerouslySetInnerHTML={{
+									__html: post.frontmatter.title || '',
+								}}
+							/>
 							<div
 								css={{
 									a: {

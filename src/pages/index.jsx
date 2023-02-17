@@ -40,14 +40,18 @@ const BlogIndex = ({ data, location }) => {
 								<h3
 									css={{
 										marginTop: rhythm(1 / 4),
-										marginBottom: rhythm(0.5),
+										marginBottom: rhythm(0.2),
 									}}
 								>
-									<BlogInfo timeToRead={node.timeToRead} date={node.frontmatter.date} />
-									<Link style={{ boxShadow: `none` }} to={node.fields.slug}>
-										{title}
-									</Link>
+									<Link
+										style={{ boxShadow: `none` }}
+										to={node.fields.slug}
+										dangerouslySetInnerHTML={{
+											__html: title || '',
+										}}
+									/>
 								</h3>
+								<BlogInfo timeToRead={node.timeToRead} date={node.frontmatter.date} />
 								<p
 									css={{ marginBottom: rhythm(1.5) }}
 									dangerouslySetInnerHTML={{

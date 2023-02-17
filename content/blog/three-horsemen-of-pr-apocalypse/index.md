@@ -1,6 +1,6 @@
 ---
-title: "The f̶o̶u̶r̶ three horsemen of the of PR apocalypse 🐎"
-description: "In this post I talk about a handful of bad PR reviews I've seen over the years and what can be done to combat them."
+title: "The <del>four</del> three horsemen of the of PR apocalypse 🐎"
+description: "In this post I talk about a some of the not so good PR reviews I've seen (and done) over the years and what can be done to combat them."
 date: 2023-01-10
 categories: ['pr', 'reviews']
 ogImage: ../og-images/andy-og-image.png
@@ -18,7 +18,7 @@ If you sense you’re about to pop out one of these reviews, it might be better 
 
 ## “All fart no poo”
 
-It takes approximately 65,000 cubic feet of hot air to float a hot air balloon. A similar amount is often produced by these reviews on the smallest of PRs. These reviews involve a significant amount of chat (mostly ![bike-shedding](https://en.wikipedia.org/wiki/Law_of_triviality)) often because the reviewer isn’t particularly comfortable in that area of the codebase. The main issue with these reviews is that the result be a PR that hangs around for days or even weeks without an approval.
+It takes approximately 65,000 cubic feet of hot air to float a hot air balloon. A similar amount is often produced by these reviews on the smallest of PRs. These reviews involve a significant amount of chat (mostly [bike-shedding](https://en.wikipedia.org/wiki/Law_of_triviality)) often because the reviewer isn’t particularly comfortable in that area of the codebase. The main issue with these reviews is that the result be a PR that hangs around for days or even weeks without an approval.
 
 As a reviewer going down this path, it is good to keep in mind that one of the primary goals of a reviewer is to get the author unblocked. Unblocking may not always mean an approval, but does mean pragmatic action. If you lack the confidence to click approve, tag someone who does have the knowledge in that area. If that’s not possible, maybe getting a walkthrough from the author will help. The worst thing you can do is ghost the author. Leaving comments without the intention of serving to unblock provides only the illusion of progress, leading other potential reviewers to focus their energies elsewhere. 
 
@@ -29,6 +29,6 @@ These reviews (often given at 4:30 on a Friday) are defined by a single vague co
 This is another style of review that only gives the illusion of progress. The scope of a PR is important to be mindful of in a review. If it’s not in scope, either ensure that your comment marked as “non-blocking”, or strike up a conversation about the issue elsewhere. If it’s 5pm and you’re typing out a comment for the sake of it, log out and head on home. 
 
 Finally, some thoughts on what makes a great review:
-1. Clear communication (What is actionable? What matters? What is a personal preference? See ![conventional comments](https://conventionalcomments.org/))
+1. Clear communication (What is actionable? What matters? What is a personal preference? See [conventional comments](https://conventionalcomments.org/))
 2. Timely responses (Set up good quality notifications for when changes to the PR have been made. Slack > Email)
 3. Run the code.
